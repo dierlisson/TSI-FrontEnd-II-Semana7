@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #c5c0b9;
+}
+.container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 30px;
+    gap: 30px;
+}
+#nota1,#nota2{
+    margin-top: 30px;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 40px;
+    
+}
+#nota2{
+    background-color: bisque;
+}
+#nota1{
+    background-color: bisque;
+}
+p>input{
+    height: 3vh;
+    width: 20vw;
+}
+#btn{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: #967fdd;
+    border: none;
+    cursor: pointer;
+}
+h4{
+    font-size: 40px;
+    font-weight: 600;
+}
+#resp{
+    border: 1px solid black;
+    background: #5bb868c6;
+}
