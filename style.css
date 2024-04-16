@@ -13,7 +13,7 @@ body{
 }
 .container{
     width: 50%;
-    height: 50%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,9 @@ body{
 p>input{
     height: 3vh;
     width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
 }
 #btn{
     width: 20vw;
@@ -52,12 +55,16 @@ p>input{
     background-color: #967fdd;
     border: none;
     cursor: pointer;
+    font-size: 25px;
 }
 h4{
     font-size: 40px;
     font-weight: 600;
 }
 #resp{
+    text-align: center;
+    width: 50vw;
+    border-radius: 20px;
     border: 1px solid black;
     background: #5bb868c6;
 }
