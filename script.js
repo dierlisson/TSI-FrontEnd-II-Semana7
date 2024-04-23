@@ -9,6 +9,7 @@ function calcular() {
     num2 = parseFloat(num2);
     num3 = parseFloat(num3);
     
+    
     console.log(typeof num1, num1, typeof num2, num2, typeof num3, num3);
         
     let media = (num1 + num2 + num3)/3;
